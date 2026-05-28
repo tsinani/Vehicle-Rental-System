@@ -1,11 +1,11 @@
-public abstract class Vehicle {
+public abstract class vehicle {
     private String vehicleId;
     public String brand;
     public String model;
     public double dailyRate;
     public boolean available;
 
-    public Vehicle(String vehicleId, String brand,
+    public vehicle(String vehicleId, String brand,
                    String model, double dailyRate) {
         this.vehicleId = vehicleId;
         this.brand = brand;
@@ -14,5 +14,5 @@ public abstract class Vehicle {
         this.available = true;
     }
 
-    public abstract String getType();
+    public abstract String getType();}
 
