@@ -7,6 +7,8 @@ public class car extends vehicle {
         this.numberofSeats = numberofSeats;
     }
     @Override
-    public String getType() { return "Car"; }
+    public String getType() {
+        return "Car";
+    }
     public int getnumberofSeats() { return numberofSeats; }
 }

@@ -6,6 +6,13 @@
             super(id, brand, model, rate);
             this.hasCargoBox = hasCargoBox;
         }
-        @Override public String getType() { return "Bike"; }
+        @Override
+        public String getType() {
+            return "Bike";
+        }
+        //getter
+    public boolean getHasCargoBox() {
+        return hasCargoBox;
+    }
     }
 
